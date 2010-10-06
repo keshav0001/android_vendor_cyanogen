@@ -17,6 +17,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.rommanager.developerid=cyanogenmod
 endif
 
+PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
+
 # Used by BusyBox
 KERNEL_MODULES_DIR:=/system/lib/modules
 
@@ -39,8 +41,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     CMParts \
     CMPartsHelper \
-		CMWallpapers \
+    CMStats \
+    CMWallpapers \
     DSPManager \
+    FileManager \
     Superuser
 
 # Copy over the changelog to the device
@@ -76,8 +80,8 @@ PRODUCT_COPY_FILES += \
     vendor/cyanogen/prebuilt/common/xbin/powertop:system/xbin/powertop \
     vendor/cyanogen/prebuilt/common/xbin/openvpn-up.sh:system/xbin/openvpn-up.sh
 
-#PRODUCT_COPY_FILES += \
-#    vendor/cyanogen/prebuilt/common/etc/init.d/05mountsd:system/etc/init.d/05mountsd \
+PRODUCT_COPY_FILES += \
+    vendor/cyanogen/prebuilt/common/etc/init.d/05mountsd:system/etc/init.d/05mountsd
 #    vendor/cyanogen/prebuilt/common/etc/init.d/10apps2sd:system/etc/init.d/10apps2sd
 
 PRODUCT_COPY_FILES +=  \
@@ -103,7 +107,6 @@ ifdef CYANOGEN_WITH_GOOGLE
         vendor/cyanogen/proprietary/HtcCopyright.apk:./system/app/HtcCopyright.apk \
         vendor/cyanogen/proprietary/HtcEmailPolicy.apk:./system/app/HtcEmailPolicy.apk \
         vendor/cyanogen/proprietary/HtcSettings.apk:./system/app/HtcSettings.apk \
-        vendor/cyanogen/proprietary/LatinImeGoogle.apk:./system/app/LatinImeGoogle.apk \
         vendor/cyanogen/proprietary/LatinImeTutorial.apk:./system/app/LatinImeTutorial.apk \
         vendor/cyanogen/proprietary/Maps.apk:./system/app/Maps.apk \
         vendor/cyanogen/proprietary/MarketUpdater.apk:./system/app/MarketUpdater.apk \
