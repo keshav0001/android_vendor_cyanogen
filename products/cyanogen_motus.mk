@@ -20,8 +20,8 @@ PRODUCT_SPECIFIC_DEFINES += TARGET_PRELINKER_MAP=$(TOP)/vendor/cyanogen/prelink-
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/motus
 
 # Include the Torch and FM apps
-#PRODUCT_PACKAGES += \
-#    Torch \
+PRODUCT_PACKAGES += \
+    Torch \
 #    FM
     
 # Enable Compcache by default on motus
