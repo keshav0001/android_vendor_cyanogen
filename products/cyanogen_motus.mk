@@ -22,11 +22,15 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/motus
 # Include the Torch and FM apps
 PRODUCT_PACKAGES += \
     Torch \
+<<<<<<< HEAD
 #    FM
     
 # Enable Compcache by default on motus
 #PRODUCT_PROPERTY_OVERRIDES += \
 #    ro.compcache.default=15
+=======
+    FM
+>>>>>>> 4a20547b3462defe5a887520a7884584c77ddb2e
 
 #
 # Set ro.modversion
@@ -43,4 +47,8 @@ endif
 #
 # Copy Motus specific prebuilt files
 #
+<<<<<<< HEAD
 PRODUCT_COPY_FILES += vendor/cyanogen/prebuilt/mdpi/media/bootanimation.zip:system/media/bootanimation.zip
+=======
+PRODUCT_COPY_FILES += vendor/cyanogen/prebuilt/mdpi/media/bootanimation.zip:system/media/bootanimation.zip
+>>>>>>> 4a20547b3462defe5a887520a7884584c77ddb2e
