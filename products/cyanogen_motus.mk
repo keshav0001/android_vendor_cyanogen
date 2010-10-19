@@ -19,8 +19,10 @@ PRODUCT_SPECIFIC_DEFINES += TARGET_PRELINKER_MAP=$(TOP)/vendor/cyanogen/prelink-
 # Extra Motus overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/motus
 
-# Include the Torch app
-PRODUCT_PACKAGES += Torch
+# Include the Torch and FM apps
+PRODUCT_PACKAGES += \
+    Torch \
+    FM
 
 #
 # Set ro.modversion
