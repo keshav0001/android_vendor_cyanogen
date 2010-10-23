@@ -31,7 +31,7 @@ PRODUCT_COPY_FILES += \
 
 # Enable Compcache by default on D/S
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.compcache.default=15
+    ro.compcache.default=18
 
 #
 # Set ro.modversion
@@ -41,7 +41,7 @@ ifdef CYANOGEN_NIGHTLY
         ro.modversion=CyanogenMod-6-$(shell date +%m%d%Y)-NIGHTLY-DS
 else
     PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-6.1.0-RC0-DS
+        ro.modversion=CyanogenMod-6.1.0-RC1-DS
 endif
 
 # Use the audio profile hack

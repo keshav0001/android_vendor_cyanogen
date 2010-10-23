@@ -17,7 +17,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_ID=FRF91 BUILD_DISPLAY_ID=FRG83 PRODUCT_NA
 # Include the Torch app
 PRODUCT_PACKAGES += Torch
 
-# Extra Passion overlay
+# Extra Bravo (CDMA/GSM) overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/bravo
 
 # Enable Windows Media
@@ -31,7 +31,7 @@ ifdef CYANOGEN_NIGHTLY
         ro.modversion=CyanogenMod-6-$(shell date +%m%d%Y)-NIGHTLY-BravoC
 else
     PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-6.1.0-RC0-BravoC
+        ro.modversion=CyanogenMod-6.1.0-RC1-BravoC
 endif
 
 #
