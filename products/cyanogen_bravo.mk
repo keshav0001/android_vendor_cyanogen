@@ -22,7 +22,7 @@ PRODUCT_PACKAGES += \
     Torch \
     FM
 
-# Extra Passion overlay
+# Extra Bravo (CDMA/GSM) overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/bravo
 
 # Extra RIL settings
@@ -42,7 +42,7 @@ ifdef CYANOGEN_NIGHTLY
         ro.modversion=CyanogenMod-6-$(shell date +%m%d%Y)-NIGHTLY-Desire
 else
     PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-6.1.0-RC0-Desire
+        ro.modversion=CyanogenMod-6.1.0-RC1-Desire
 endif
 
 #
