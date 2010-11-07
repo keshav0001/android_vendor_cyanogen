@@ -15,26 +15,28 @@ Maintainers:
 * Droid: Koush
 * Dream/Sapphire: Cyanogen
 * Hero: Lox (GSM), Darchstar (CDMA)
-* Desire: Kali-, Defer
-* DesireC: Kali-, Defer
+* Desire (GSM/CDMA): Kali-, Defer
 * Incredible: Koush
 * Espresso (Slide): Wes Garner, Chris Soyars, Cyanogen
 * Supersonic (EVO): Cyanogen, toastcfh
 * Galaxy S (Vibrant): Scepterr, Wes Garner
 * Legend: Alexander Hofbauer
 * Vision: Cyanogen
+* Geeksphone ONE: arcee
+* Z71 (Boston, G1305, XT502, A60, Blaze, others): arcee
+* Wildfire: Jacob Crawley
 
 Translators:
 ------------
-* German: Matthias Büchner, Alexander Hofbauer, Sebastian K (DerSeppel)
+* German: Matthias Büchner, Alexander Hofbauer, Sebastian K (DerSeppel), Ricco Thiel
 * Italian: Eugenio Ziliotto, Giulio Cervera
 * Japanese: Takuo Kitame
 * French: Sébastien Vaucher, David Girault
 * Chinese: comercy
 * Russian: Oleg Krikun
-* Polish: NameLess the Jedi
 * Portuguese: Eduardo Martins
 * Spanish: PeRiJeY
+
 
 CHANGELOG
 ---------
