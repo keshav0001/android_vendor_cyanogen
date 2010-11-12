@@ -15,14 +15,28 @@ Maintainers:
 * Droid: Koush
 * Dream/Sapphire: Cyanogen
 * Hero: Lox (GSM), Darchstar (CDMA)
-* Desire: Kali-, Defer
-* DesireC: Kali-, Defer
+* Desire (GSM/CDMA): Kali-, Defer
 * Incredible: Koush
 * Espresso (Slide): Wes Garner, Chris Soyars, Cyanogen
 * Supersonic (EVO): Cyanogen, toastcfh
 * Galaxy S (Vibrant): Scepterr, Wes Garner
 * Legend: Alexander Hofbauer
 * Vision: Cyanogen
+* Geeksphone ONE: arcee
+* Z71 (Boston, G1305, XT502, A60, Blaze, others): arcee
+* Wildfire: Jacob Crawley
+
+Translators:
+------------
+* German: Matthias Büchner, Alexander Hofbauer, Sebastian K (DerSeppel), Ricco Thiel
+* Italian: Eugenio Ziliotto, Giulio Cervera
+* Japanese: Takuo Kitame
+* French: Sébastien Vaucher, David Girault
+* Chinese: comercy
+* Russian: Oleg Krikun
+* Portuguese: Eduardo Martins
+* Spanish: PeRiJeY
+
 
 CHANGELOG
 ---------
@@ -57,6 +71,7 @@ CHANGELOG
 * Common: Quick PIN unlock - gsarrica
 * Common: Increase performance of Gallery3D caching system - Androbot
 * Common: Gallery3D bugfixes and improvements - CodeAurora
+* Common: Gallery3D highres patches - Petar Šegina
 * Common: Skia performance enhancements - CodeAurora
 * Common: APN list update - Paul Weiss
 * Common: Fix AGPS issues on all platforms
@@ -65,13 +80,15 @@ CHANGELOG
 * Common: Enabled Sound Recorder app
 * Common: Bluetooth OBEX performance boost - Sony
 * Common: Updated Terminal Emulator app - Jack Palevich
-* N1/Bravo/Supersonic: FM Radio support - MIUI - http://miui.com (graphics from Fitsnugly and HaXzAmaTiC)
+* Common: Updated headset drawables - blunden
+* N1/Bravo/Supersonic: FM Radio support - MIUI - http://miui.com (graphics from Fitsnugly, HaXzAmaTiC, and blunden)
 * N1/DS - Kernel 2.6.35 based on Pershoot's repository
 * DS: Updated hardware drivers from official release
 * DS: CompCache sizes can be adjusted through CMParts - Wes Garner
 * Supersonic - Kernel 2.6.34 courtesy of Toast and Madcoder
 * Bravo: Kernel 2.6.35
 * Espresso: Improve backlights - Wes Garner
+* Espresso: Kernel OC patch - dumfuq (no OC by default)
 * Legend/Supersonic: Proper notification light support - Alex Hofbauer
 
 ** Note on Email update: This requires a one-time wipe of application settings.
@@ -106,7 +123,6 @@ CHANGELOG
 * Common: Enhanced accelerometer settings - Jonas Larsson
 * Common: A2DP bugfixes - Glenn Maynard
 * Common: Browser fullscreen mode and other enhancements - Wysie
-* Common: Translations: Takuo Kitame, Matthias Büchner, Eug89, comercy
 * Common: Major build system enhancements by Chris Soyars & Koush
 * Common: Long press volume buttons to skip songs - Jon Boekenoogen
 * Common: Accelerated ARMv7 JPEG and PNG decoding - Qualcomm
